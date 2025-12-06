@@ -9,7 +9,8 @@ https://rust-lang.org/ja/tools/install/
 cargo init cli-rust-template
 cd cli-rust-template
 cargo install --locked bacon
-cargo add ratatui clap
+cargo add clap --features derive
+cargo add ratatui crossterm
 ```
 
 # 開発用コマンド
