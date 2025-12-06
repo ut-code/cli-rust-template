@@ -30,7 +30,7 @@ cargo run
 
 ## 参考
 
-- 
+- https://doc.rust-jp.rs/book-ja/
 - https://ratatui.rs/
 - https://docs.rs/clap/latest/clap/
 - https://docs.rs/crossterm/latest/crossterm/
