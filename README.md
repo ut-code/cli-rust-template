@@ -6,6 +6,10 @@ https://rust-lang.org/ja/tools/install/
 もしくはnixを使う
 
 ```bash
+# このテンプレートで開発する場合
+cargo install
+
+# このテンプレートを再現したい場合
 cargo init
 cargo add clap --features derive
 cargo add ratatui crossterm
