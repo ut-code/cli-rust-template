@@ -6,11 +6,10 @@ https://rust-lang.org/ja/tools/install/
 もしくはnixを使う
 
 ```bash
-cargo init cli-rust-template
-cd cli-rust-template
-cargo install --locked bacon
+cargo init
 cargo add clap --features derive
 cargo add ratatui crossterm
+cargo install --locked bacon
 ```
 
 # 開発用コマンド
