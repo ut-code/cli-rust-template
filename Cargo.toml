@@ -1,0 +1,10 @@
+[package]
+name = "cli-rust-template"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+ratatui = "0.29"
+crossterm = "0.28"
+color-eyre = "0.6"
